@@ -14,7 +14,7 @@ function App() {
 
      <BrowserRouter >
      <Switch > 
-      <Route path="/" exact>
+      <Route path="/weather" exact>
       <Home />
       </Route>
       <Route path="/:city" exact>
